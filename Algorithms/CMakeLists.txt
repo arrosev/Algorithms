@@ -3,4 +3,4 @@ project(Algorithms C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(Algorithms main.c)
+add_executable(Algorithms main.c leetcode.c leetcode.h)

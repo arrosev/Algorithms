@@ -142,6 +142,33 @@ Algorithms/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/build
 .PHONY : Algorithms/fast
 
+leetcode.o: leetcode.c.o
+
+.PHONY : leetcode.o
+
+# target to build an object file
+leetcode.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/leetcode.c.o
+.PHONY : leetcode.c.o
+
+leetcode.i: leetcode.c.i
+
+.PHONY : leetcode.i
+
+# target to preprocess a source file
+leetcode.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/leetcode.c.i
+.PHONY : leetcode.c.i
+
+leetcode.s: leetcode.c.s
+
+.PHONY : leetcode.s
+
+# target to generate assembly for a file
+leetcode.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/leetcode.c.s
+.PHONY : leetcode.c.s
+
 main.o: main.c.o
 
 .PHONY : main.o
@@ -178,6 +205,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Algorithms"
+	@echo "... leetcode.o"
+	@echo "... leetcode.i"
+	@echo "... leetcode.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

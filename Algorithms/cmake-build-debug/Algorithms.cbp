@@ -76,6 +76,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/leetcode.c">
+			<Option target="Algorithms"/>
+		</Unit>
+		<Unit filename="/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/leetcode.h">
+			<Option target="Algorithms"/>
+		</Unit>
 		<Unit filename="/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/main.c">
 			<Option target="Algorithms"/>
 		</Unit>

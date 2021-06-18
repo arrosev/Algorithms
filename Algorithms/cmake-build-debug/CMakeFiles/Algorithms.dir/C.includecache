@@ -6,7 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/main.c
+/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/leetcode.c
+leetcode.h
+/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/leetcode.h
+stdbool.h
+-
+stdlib.h
+-
+math.h
+-
 stdio.h
 -
+limits.h
+-
+
+/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/leetcode.h
 

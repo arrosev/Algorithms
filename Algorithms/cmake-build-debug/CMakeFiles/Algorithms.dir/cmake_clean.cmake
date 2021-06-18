@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "Algorithms"
   "Algorithms.pdb"
+  "CMakeFiles/Algorithms.dir/leetcode.c.o"
   "CMakeFiles/Algorithms.dir/main.c.o"
 )
 
