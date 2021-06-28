@@ -1,13 +1,13 @@
 #include <stdio.h>
 #include <math.h>
 #include "leetcode.h"
+#include "list.h"
 
 int main() {
-    //printf("Hello, World!\n");
 
-    printf("反转x: %d", reverse(-2147483648));
-
-    //printf("%ld",-(long)pow(2,31));
+    List L = MakeEmpty(NULL);
+    Insert(100, L, L);
+    printf("%d", Retrieve(First(L)));
 
     return 0;
 }

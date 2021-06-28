@@ -76,10 +76,22 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/error.c">
+			<Option target="Algorithms"/>
+		</Unit>
+		<Unit filename="/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/error.h">
+			<Option target="Algorithms"/>
+		</Unit>
 		<Unit filename="/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/leetcode.c">
 			<Option target="Algorithms"/>
 		</Unit>
 		<Unit filename="/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/leetcode.h">
+			<Option target="Algorithms"/>
+		</Unit>
+		<Unit filename="/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/list.c">
+			<Option target="Algorithms"/>
+		</Unit>
+		<Unit filename="/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/list.h">
 			<Option target="Algorithms"/>
 		</Unit>
 		<Unit filename="/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/main.c">

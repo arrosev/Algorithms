@@ -3,10 +3,6 @@
 //
 
 #include "leetcode.h"
-#include <stdbool.h>
-#include <stdlib.h>
-#include <math.h>
-#include <stdio.h>
 #include <limits.h>
 
 int reverse(int x) {
