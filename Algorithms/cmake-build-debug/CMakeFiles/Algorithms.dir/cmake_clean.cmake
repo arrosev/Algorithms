@@ -1,10 +1,13 @@
 file(REMOVE_RECURSE
-  "Algorithms"
+  "Algorithms.exe"
+  "Algorithms.exe.manifest"
   "Algorithms.pdb"
-  "CMakeFiles/Algorithms.dir/error.c.o"
-  "CMakeFiles/Algorithms.dir/leetcode.c.o"
-  "CMakeFiles/Algorithms.dir/list.c.o"
-  "CMakeFiles/Algorithms.dir/main.c.o"
+  "CMakeFiles/Algorithms.dir/error.c.obj"
+  "CMakeFiles/Algorithms.dir/leetcode.c.obj"
+  "CMakeFiles/Algorithms.dir/list.c.obj"
+  "CMakeFiles/Algorithms.dir/main.c.obj"
+  "CMakeFiles/Algorithms.dir/stack.c.obj"
+  "libAlgorithms.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

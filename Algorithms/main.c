@@ -2,12 +2,16 @@
 #include <math.h>
 #include "leetcode.h"
 #include "list.h"
+#include "stack.h"
 
 int main() {
 
-    List L = MakeEmpty(NULL);
-    Insert(100, L, L);
-    printf("%d", Retrieve(First(L)));
+    Stack S = CreateStack();
+    PushStack(10, S);
+    PushStack(11, S);
+    printf("Top: %d", TopStack(S));
+    DisposeStack(S);
+    printf("Top: %d", TopStack(S));
 
     return 0;
 }

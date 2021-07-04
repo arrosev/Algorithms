@@ -1,4 +1,4 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms
+"D:\Clion\install\CLion 2021.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\Clion\gitProject\Algorithms\Algorithms
 -- Configuring done
 -- Generating done
--- Build files have been written to: /Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/cmake-build-debug
+-- Build files have been written to: D:/Clion/gitProject/Algorithms/Algorithms/cmake-build-debug
