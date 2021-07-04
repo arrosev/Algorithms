@@ -8,100 +8,102 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="D:/Clion/gitProject/Algorithms/Algorithms/cmake-build-debug"/>
+				<Option working_dir="/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Clion/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/gitProject/Algorithms/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="D:/Clion/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/gitProject/Algorithms/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Clion/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/gitProject/Algorithms/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Clion/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/gitProject/Algorithms/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Algorithms">
-				<Option output="D:/Clion/gitProject/Algorithms/Algorithms/cmake-build-debug/Algorithms.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Clion/gitProject/Algorithms/Algorithms/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/Clion/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Clion/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Clion/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/Clion/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/gitProject/Algorithms/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 Algorithms"/>
-					<CompileFile command="D:/Clion/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/gitProject/Algorithms/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Clion/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/gitProject/Algorithms/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Clion/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/gitProject/Algorithms/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="Algorithms/fast">
-				<Option output="D:/Clion/gitProject/Algorithms/Algorithms/cmake-build-debug/Algorithms.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="D:/Clion/gitProject/Algorithms/Algorithms/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="D:/Clion/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="D:/Clion/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="D:/Clion/MinGW64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="D:/Clion/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/gitProject/Algorithms/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 Algorithms/fast"/>
-					<CompileFile command="D:/Clion/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/gitProject/Algorithms/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Clion/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/gitProject/Algorithms/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Clion/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/gitProject/Algorithms/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="D:/Clion/gitProject/Algorithms/Algorithms/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="D:/Clion/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/gitProject/Algorithms/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="D:/Clion/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/gitProject/Algorithms/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Clion/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/gitProject/Algorithms/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Clion/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/gitProject/Algorithms/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="D:/Clion/gitProject/Algorithms/Algorithms/cmake-build-debug"/>
+				<Option working_dir="/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Clion/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/gitProject/Algorithms/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="D:/Clion/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/gitProject/Algorithms/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Clion/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/gitProject/Algorithms/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Clion/MinGW64/mingw64/bin/mingw32-make.exe -f &quot;D:/Clion/gitProject/Algorithms/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Algorithms">
+				<Option output="/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/cmake-build-debug/Algorithms" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 Algorithms"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Algorithms/fast">
+				<Option output="/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/cmake-build-debug/Algorithms" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j16 -f &quot;/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 Algorithms/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Clion/gitProject/Algorithms/Algorithms/error.c">
+		<Unit filename="/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/error.c">
 			<Option target="Algorithms"/>
 		</Unit>
-		<Unit filename="D:/Clion/gitProject/Algorithms/Algorithms/error.h">
+		<Unit filename="/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/error.h">
 			<Option target="Algorithms"/>
 		</Unit>
-		<Unit filename="D:/Clion/gitProject/Algorithms/Algorithms/leetcode.c">
+		<Unit filename="/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/leetcode.c">
 			<Option target="Algorithms"/>
 		</Unit>
-		<Unit filename="D:/Clion/gitProject/Algorithms/Algorithms/leetcode.h">
+		<Unit filename="/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/leetcode.h">
 			<Option target="Algorithms"/>
 		</Unit>
-		<Unit filename="D:/Clion/gitProject/Algorithms/Algorithms/list.c">
+		<Unit filename="/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/list.c">
 			<Option target="Algorithms"/>
 		</Unit>
-		<Unit filename="D:/Clion/gitProject/Algorithms/Algorithms/list.h">
+		<Unit filename="/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/list.h">
 			<Option target="Algorithms"/>
 		</Unit>
-		<Unit filename="D:/Clion/gitProject/Algorithms/Algorithms/main.c">
+		<Unit filename="/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/main.c">
 			<Option target="Algorithms"/>
 		</Unit>
-		<Unit filename="D:/Clion/gitProject/Algorithms/Algorithms/stack.c">
+		<Unit filename="/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/stack.c">
 			<Option target="Algorithms"/>
 		</Unit>
-		<Unit filename="D:/Clion/gitProject/Algorithms/Algorithms/stack.h">
+		<Unit filename="/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/stack.h">
 			<Option target="Algorithms"/>
 		</Unit>
-		<Unit filename="D:/Clion/gitProject/Algorithms/Algorithms/CMakeLists.txt">
+		<Unit filename="/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

@@ -9,9 +9,9 @@ int main() {
     Stack S = CreateStack();
     PushStack(10, S);
     PushStack(11, S);
-    printf("Top: %d", TopStack(S));
+    printf("Top: %d\n", TopStack(S));
     DisposeStack(S);
-    printf("Top: %d", TopStack(S));
+    printf("Top: %d\n", TopStack(S));
 
     return 0;
 }

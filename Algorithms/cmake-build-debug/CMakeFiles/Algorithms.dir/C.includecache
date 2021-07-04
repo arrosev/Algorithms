@@ -6,19 +6,25 @@
 
 #IncludeRegexTransform: 
 
-D:/Clion/gitProject/Algorithms/Algorithms/error.h
+/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/leetcode.h
 
-D:/Clion/gitProject/Algorithms/Algorithms/stack.c
+/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/list.h
+stdbool.h
+-
+
+/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/main.c
+stdio.h
+-
+math.h
+-
+leetcode.h
+/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/leetcode.h
+list.h
+/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/list.h
 stack.h
-D:/Clion/gitProject/Algorithms/Algorithms/stack.h
-stddef.h
--
-stdlib.h
--
-error.h
-D:/Clion/gitProject/Algorithms/Algorithms/error.h
+/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/stack.h
 
-D:/Clion/gitProject/Algorithms/Algorithms/stack.h
+/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/stack.h
 stdbool.h
 -
 

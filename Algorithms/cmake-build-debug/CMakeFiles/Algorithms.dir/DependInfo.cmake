@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/Clion/gitProject/Algorithms/Algorithms/error.c" "D:/Clion/gitProject/Algorithms/Algorithms/cmake-build-debug/CMakeFiles/Algorithms.dir/error.c.obj"
-  "D:/Clion/gitProject/Algorithms/Algorithms/leetcode.c" "D:/Clion/gitProject/Algorithms/Algorithms/cmake-build-debug/CMakeFiles/Algorithms.dir/leetcode.c.obj"
-  "D:/Clion/gitProject/Algorithms/Algorithms/list.c" "D:/Clion/gitProject/Algorithms/Algorithms/cmake-build-debug/CMakeFiles/Algorithms.dir/list.c.obj"
-  "D:/Clion/gitProject/Algorithms/Algorithms/main.c" "D:/Clion/gitProject/Algorithms/Algorithms/cmake-build-debug/CMakeFiles/Algorithms.dir/main.c.obj"
-  "D:/Clion/gitProject/Algorithms/Algorithms/stack.c" "D:/Clion/gitProject/Algorithms/Algorithms/cmake-build-debug/CMakeFiles/Algorithms.dir/stack.c.obj"
+  "/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/error.c" "/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/cmake-build-debug/CMakeFiles/Algorithms.dir/error.c.o"
+  "/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/leetcode.c" "/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/cmake-build-debug/CMakeFiles/Algorithms.dir/leetcode.c.o"
+  "/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/list.c" "/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/cmake-build-debug/CMakeFiles/Algorithms.dir/list.c.o"
+  "/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/main.c" "/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/cmake-build-debug/CMakeFiles/Algorithms.dir/main.c.o"
+  "/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/stack.c" "/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/cmake-build-debug/CMakeFiles/Algorithms.dir/stack.c.o"
   )
-set(CMAKE_C_COMPILER_ID "GNU")
+set(CMAKE_C_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
