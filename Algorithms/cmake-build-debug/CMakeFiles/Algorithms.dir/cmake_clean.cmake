@@ -5,6 +5,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Algorithms.dir/leetcode.c.o"
   "CMakeFiles/Algorithms.dir/list.c.o"
   "CMakeFiles/Algorithms.dir/main.c.o"
+  "CMakeFiles/Algorithms.dir/queue.c.o"
   "CMakeFiles/Algorithms.dir/stack.c.o"
 )
 

@@ -97,6 +97,12 @@
 		<Unit filename="/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/main.c">
 			<Option target="Algorithms"/>
 		</Unit>
+		<Unit filename="/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/queue.c">
+			<Option target="Algorithms"/>
+		</Unit>
+		<Unit filename="/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/queue.h">
+			<Option target="Algorithms"/>
+		</Unit>
 		<Unit filename="/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/stack.c">
 			<Option target="Algorithms"/>
 		</Unit>

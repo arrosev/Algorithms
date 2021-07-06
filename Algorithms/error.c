@@ -6,5 +6,5 @@
 #include <stdio.h>
 
 void FatalError(char *message) {
-    printf(message);
+    printf("%s\n",message);
 }

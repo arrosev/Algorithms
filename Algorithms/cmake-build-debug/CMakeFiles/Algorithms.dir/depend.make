@@ -14,7 +14,12 @@ CMakeFiles/Algorithms.dir/list.c.o: ../list.h
 CMakeFiles/Algorithms.dir/main.c.o: ../leetcode.h
 CMakeFiles/Algorithms.dir/main.c.o: ../list.h
 CMakeFiles/Algorithms.dir/main.c.o: ../main.c
+CMakeFiles/Algorithms.dir/main.c.o: ../queue.h
 CMakeFiles/Algorithms.dir/main.c.o: ../stack.h
+
+CMakeFiles/Algorithms.dir/queue.c.o: ../error.h
+CMakeFiles/Algorithms.dir/queue.c.o: ../queue.c
+CMakeFiles/Algorithms.dir/queue.c.o: ../queue.h
 
 CMakeFiles/Algorithms.dir/stack.c.o: ../error.h
 CMakeFiles/Algorithms.dir/stack.c.o: ../stack.c
