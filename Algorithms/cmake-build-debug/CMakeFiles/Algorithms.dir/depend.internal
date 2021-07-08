@@ -16,11 +16,16 @@ CMakeFiles/Algorithms.dir/main.c.o
  /Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/list.h
  /Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/main.c
  /Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/queue.h
+ /Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/searchtree.h
  /Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/stack.h
 CMakeFiles/Algorithms.dir/queue.c.o
  /Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/error.h
  /Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/queue.c
  /Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/queue.h
+CMakeFiles/Algorithms.dir/searchtree.c.o
+ /Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/error.h
+ /Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/searchtree.c
+ /Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/searchtree.h
 CMakeFiles/Algorithms.dir/stack.c.o
  /Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/error.h
  /Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/stack.c

@@ -103,6 +103,12 @@
 		<Unit filename="/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/queue.h">
 			<Option target="Algorithms"/>
 		</Unit>
+		<Unit filename="/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/searchtree.c">
+			<Option target="Algorithms"/>
+		</Unit>
+		<Unit filename="/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/searchtree.h">
+			<Option target="Algorithms"/>
+		</Unit>
 		<Unit filename="/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/stack.c">
 			<Option target="Algorithms"/>
 		</Unit>

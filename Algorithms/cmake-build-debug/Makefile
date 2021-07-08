@@ -277,6 +277,33 @@ queue.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/queue.c.s
 .PHONY : queue.c.s
 
+searchtree.o: searchtree.c.o
+
+.PHONY : searchtree.o
+
+# target to build an object file
+searchtree.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/searchtree.c.o
+.PHONY : searchtree.c.o
+
+searchtree.i: searchtree.c.i
+
+.PHONY : searchtree.i
+
+# target to preprocess a source file
+searchtree.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/searchtree.c.i
+.PHONY : searchtree.c.i
+
+searchtree.s: searchtree.c.s
+
+.PHONY : searchtree.s
+
+# target to generate assembly for a file
+searchtree.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/searchtree.c.s
+.PHONY : searchtree.c.s
+
 stack.o: stack.c.o
 
 .PHONY : stack.o
@@ -328,6 +355,9 @@ help:
 	@echo "... queue.o"
 	@echo "... queue.i"
 	@echo "... queue.s"
+	@echo "... searchtree.o"
+	@echo "... searchtree.i"
+	@echo "... searchtree.s"
 	@echo "... stack.o"
 	@echo "... stack.i"
 	@echo "... stack.s"
