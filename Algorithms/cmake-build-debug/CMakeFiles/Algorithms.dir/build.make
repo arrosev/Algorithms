@@ -167,6 +167,32 @@ CMakeFiles/Algorithms.dir/searchtree.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Algorithms.dir/searchtree.c.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/searchtree.c -o CMakeFiles/Algorithms.dir/searchtree.c.s
 
+CMakeFiles/Algorithms.dir/avltree.c.o: CMakeFiles/Algorithms.dir/flags.make
+CMakeFiles/Algorithms.dir/avltree.c.o: ../avltree.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Algorithms.dir/avltree.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Algorithms.dir/avltree.c.o -c /Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/avltree.c
+
+CMakeFiles/Algorithms.dir/avltree.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Algorithms.dir/avltree.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/avltree.c > CMakeFiles/Algorithms.dir/avltree.c.i
+
+CMakeFiles/Algorithms.dir/avltree.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Algorithms.dir/avltree.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/avltree.c -o CMakeFiles/Algorithms.dir/avltree.c.s
+
+CMakeFiles/Algorithms.dir/utility.c.o: CMakeFiles/Algorithms.dir/flags.make
+CMakeFiles/Algorithms.dir/utility.c.o: ../utility.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Algorithms.dir/utility.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Algorithms.dir/utility.c.o -c /Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/utility.c
+
+CMakeFiles/Algorithms.dir/utility.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Algorithms.dir/utility.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/utility.c > CMakeFiles/Algorithms.dir/utility.c.i
+
+CMakeFiles/Algorithms.dir/utility.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Algorithms.dir/utility.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/utility.c -o CMakeFiles/Algorithms.dir/utility.c.s
+
 # Object files for target Algorithms
 Algorithms_OBJECTS = \
 "CMakeFiles/Algorithms.dir/main.c.o" \
@@ -175,7 +201,9 @@ Algorithms_OBJECTS = \
 "CMakeFiles/Algorithms.dir/error.c.o" \
 "CMakeFiles/Algorithms.dir/stack.c.o" \
 "CMakeFiles/Algorithms.dir/queue.c.o" \
-"CMakeFiles/Algorithms.dir/searchtree.c.o"
+"CMakeFiles/Algorithms.dir/searchtree.c.o" \
+"CMakeFiles/Algorithms.dir/avltree.c.o" \
+"CMakeFiles/Algorithms.dir/utility.c.o"
 
 # External object files for target Algorithms
 Algorithms_EXTERNAL_OBJECTS =
@@ -187,9 +215,11 @@ Algorithms: CMakeFiles/Algorithms.dir/error.c.o
 Algorithms: CMakeFiles/Algorithms.dir/stack.c.o
 Algorithms: CMakeFiles/Algorithms.dir/queue.c.o
 Algorithms: CMakeFiles/Algorithms.dir/searchtree.c.o
+Algorithms: CMakeFiles/Algorithms.dir/avltree.c.o
+Algorithms: CMakeFiles/Algorithms.dir/utility.c.o
 Algorithms: CMakeFiles/Algorithms.dir/build.make
 Algorithms: CMakeFiles/Algorithms.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking C executable Algorithms"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C executable Algorithms"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Algorithms.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

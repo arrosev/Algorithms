@@ -5,6 +5,7 @@
 #include "stack.h"
 #include "queue.h"
 #include "searchtree.h"
+#include "avltree.h"
 
 int main() {
 
@@ -34,22 +35,38 @@ int main() {
 //    printf("Front: %d\n", FrontAndDequeue(Q));
 //    printf("Front: %d\n", FrontAndDequeue(Q));
 
-    SearchTree T = NULL;
-    //T = MakeEmptyTree(T);
-    T = InsertTree(6, T);
-    T = InsertTree(2, T);
-    T = InsertTree(8, T);
-    T = InsertTree(1, T);
-    T = InsertTree(4, T);
-    T = InsertTree(3, T);
-    T = InsertTree(5, T);
+//    SearchTree T = NULL;
+//    T = InsertTree(6, T);
+//    T = InsertTree(2, T);
+//    T = InsertTree(8, T);
+//    T = InsertTree(1, T);
+//    T = InsertTree(4, T);
+//    T = InsertTree(3, T);
+//    T = InsertTree(5, T);
+//
+//    printf("Min: %d\n", RetrieveTree(FindMinTree(T)));
+//    printf("Max: %d\n", RetrieveTree(FindMaxTree(T)));
+//
+//    T = DeleteTree(8, T);
+//    printf("Min: %d\n", RetrieveTree(FindMinTree(T)));
+//    printf("Max: %d\n", RetrieveTree(FindMaxTree(T)));
+//    T = MakeEmptyTree(T);
+//    printf("Max: %d\n", RetrieveTree(FindMaxTree(T)));
 
-    printf("Min: %d\n", RetrieveTree(FindMinTree(T)));
-    printf("Max: %d\n", RetrieveTree(FindMaxTree(T)));
+    AvlTree T = NULL;
+    T = InsertAvlTree(6, T);
+    T = InsertAvlTree(2, T);
+    T = InsertAvlTree(8, T);
+    T = InsertAvlTree(1, T);
+    T = InsertAvlTree(4, T);
+    T = InsertAvlTree(3, T);
+    T = InsertAvlTree(5, T);
+    T = InsertAvlTree(7, T);
 
-    T = DeleteTree(8, T);
-    printf("Min: %d\n", RetrieveTree(FindMinTree(T)));
-    printf("Max: %d\n", RetrieveTree(FindMaxTree(T)));
+    printf("Min: %d\n", RetrieveAvlTree(FindMinAvlTree(T)));
+    printf("Max: %d\n", RetrieveAvlTree(FindMaxAvlTree(T)));
+    printf("Height: %d\n", AvlTreeHeight(T));
+    printf("T root Element: %d\n", RetrieveAvlTree(T));
 
     return 0;
 }

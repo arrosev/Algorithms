@@ -142,6 +142,33 @@ Algorithms/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/build
 .PHONY : Algorithms/fast
 
+avltree.o: avltree.c.o
+
+.PHONY : avltree.o
+
+# target to build an object file
+avltree.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/avltree.c.o
+.PHONY : avltree.c.o
+
+avltree.i: avltree.c.i
+
+.PHONY : avltree.i
+
+# target to preprocess a source file
+avltree.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/avltree.c.i
+.PHONY : avltree.c.i
+
+avltree.s: avltree.c.s
+
+.PHONY : avltree.s
+
+# target to generate assembly for a file
+avltree.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/avltree.c.s
+.PHONY : avltree.c.s
+
 error.o: error.c.o
 
 .PHONY : error.o
@@ -331,6 +358,33 @@ stack.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/stack.c.s
 .PHONY : stack.c.s
 
+utility.o: utility.c.o
+
+.PHONY : utility.o
+
+# target to build an object file
+utility.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/utility.c.o
+.PHONY : utility.c.o
+
+utility.i: utility.c.i
+
+.PHONY : utility.i
+
+# target to preprocess a source file
+utility.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/utility.c.i
+.PHONY : utility.c.i
+
+utility.s: utility.c.s
+
+.PHONY : utility.s
+
+# target to generate assembly for a file
+utility.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/utility.c.s
+.PHONY : utility.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -340,6 +394,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Algorithms"
+	@echo "... avltree.o"
+	@echo "... avltree.i"
+	@echo "... avltree.s"
 	@echo "... error.o"
 	@echo "... error.i"
 	@echo "... error.s"
@@ -361,6 +418,9 @@ help:
 	@echo "... stack.o"
 	@echo "... stack.i"
 	@echo "... stack.s"
+	@echo "... utility.o"
+	@echo "... utility.i"
+	@echo "... utility.s"
 .PHONY : help
 
 

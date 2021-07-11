@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "Algorithms"
   "Algorithms.pdb"
+  "CMakeFiles/Algorithms.dir/avltree.c.o"
   "CMakeFiles/Algorithms.dir/error.c.o"
   "CMakeFiles/Algorithms.dir/leetcode.c.o"
   "CMakeFiles/Algorithms.dir/list.c.o"
@@ -8,6 +9,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Algorithms.dir/queue.c.o"
   "CMakeFiles/Algorithms.dir/searchtree.c.o"
   "CMakeFiles/Algorithms.dir/stack.c.o"
+  "CMakeFiles/Algorithms.dir/utility.c.o"
 )
 
 # Per-language clean rules from dependency scanning.

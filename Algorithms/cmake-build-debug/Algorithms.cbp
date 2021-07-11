@@ -76,6 +76,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/avltree.c">
+			<Option target="Algorithms"/>
+		</Unit>
+		<Unit filename="/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/avltree.h">
+			<Option target="Algorithms"/>
+		</Unit>
 		<Unit filename="/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/error.c">
 			<Option target="Algorithms"/>
 		</Unit>
@@ -113,6 +119,12 @@
 			<Option target="Algorithms"/>
 		</Unit>
 		<Unit filename="/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/stack.h">
+			<Option target="Algorithms"/>
+		</Unit>
+		<Unit filename="/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/utility.c">
+			<Option target="Algorithms"/>
+		</Unit>
+		<Unit filename="/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/utility.h">
 			<Option target="Algorithms"/>
 		</Unit>
 		<Unit filename="/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/CMakeLists.txt">

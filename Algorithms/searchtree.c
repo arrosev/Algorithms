@@ -14,12 +14,23 @@ struct TreeNode {
 };
 
 SearchTree MakeEmptyTree(SearchTree T) {
-    if(T != NULL) {
+//    if(T != NULL) {
+//        MakeEmptyTree(T->Left);
+//        MakeEmptyTree(T->Right);
+//    }
+//    free(T);
+//    return NULL;
+    if(T->Left != NULL) {
         MakeEmptyTree(T->Left);
-        MakeEmptyTree(T->Right);
-        free(T);
     }
-    return NULL;
+
+    if(T->Right != NULL) {
+        MakeEmptyTree(T->Right);
+    }
+
+    free(T);
+    T = NULL;
+    return T;
 }
 
 TreePosition FindTree(TreeElementType X, SearchTree T) {
@@ -100,5 +111,8 @@ SearchTree DeleteTree(TreeElementType X, SearchTree T) {
 }
 
 TreeElementType RetrieveTree(TreePosition P) {
-    return P->Element;
+    if (P != NULL) {
+        return P->Element;
+    }
+    return 0;
 }

@@ -6,6 +6,22 @@
 
 #IncludeRegexTransform: 
 
+/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/avltree.c
+avltree.h
+/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/avltree.h
+stddef.h
+-
+stdlib.h
+-
+error.h
+/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/error.h
+utility.h
+/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/utility.h
+
+/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/avltree.h
+
+/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/error.h
+
 /Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/leetcode.h
 
 /Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/list.h
@@ -27,6 +43,8 @@ queue.h
 /Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/queue.h
 searchtree.h
 /Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/searchtree.h
+avltree.h
+/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/avltree.h
 
 /Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/queue.h
 stdbool.h
@@ -37,4 +55,6 @@ stdbool.h
 /Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/stack.h
 stdbool.h
 -
+
+/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/utility.h
 
