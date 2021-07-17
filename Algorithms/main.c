@@ -6,6 +6,8 @@
 #include "queue.h"
 #include "searchtree.h"
 #include "avltree.h"
+#include "utility.h"
+#include "sephash.h"
 
 int main() {
 
@@ -53,20 +55,39 @@ int main() {
 //    T = MakeEmptyTree(T);
 //    printf("Max: %d\n", RetrieveTree(FindMaxTree(T)));
 
-    AvlTree T = NULL;
-    T = InsertAvlTree(6, T);
-    T = InsertAvlTree(2, T);
-    T = InsertAvlTree(8, T);
-    T = InsertAvlTree(1, T);
-    T = InsertAvlTree(4, T);
-    T = InsertAvlTree(3, T);
-    T = InsertAvlTree(5, T);
-    T = InsertAvlTree(7, T);
+//    AvlTree T = NULL;
+//    T = InsertAvlTree(6, T);
+//    T = InsertAvlTree(2, T);
+//    T = InsertAvlTree(8, T);
+//    T = InsertAvlTree(1, T);
+//    T = InsertAvlTree(4, T);
+//    T = InsertAvlTree(3, T);
+//    T = InsertAvlTree(5, T);
+//    T = InsertAvlTree(7, T);
+//
+//    printf("Min: %d\n", RetrieveAvlTree(FindMinAvlTree(T)));
+//    printf("Max: %d\n", RetrieveAvlTree(FindMaxAvlTree(T)));
+//    printf("Height: %d\n", AvlTreeHeight(T));
+//    printf("T root Element: %d\n", RetrieveAvlTree(T));
 
-    printf("Min: %d\n", RetrieveAvlTree(FindMinAvlTree(T)));
-    printf("Max: %d\n", RetrieveAvlTree(FindMaxAvlTree(T)));
-    printf("Height: %d\n", AvlTreeHeight(T));
-    printf("T root Element: %d\n", RetrieveAvlTree(T));
+
+//    printf("下一个素数: %d", NextPrime(7));
+
+    SepHashTable T = InitializeSepHashTable(10);
+
+    InsertInSepHashTable("Hello", T);
+    InsertInSepHashTable("A", T);
+    InsertInSepHashTable("Rose", T);
+
+    PrintSepHashTable(T);
+
+    printf("%s\n", RetrieveSepHashTable(FindInSepHashTable("A", T)));
+    printf("%s\n", RetrieveSepHashTable(FindInSepHashTable("Worlds", T)));
+
+    T = DestroySepHashTable(T);
+
+    printf("%s\n", RetrieveSepHashTable(FindInSepHashTable("A", T)));
+
 
     return 0;
 }

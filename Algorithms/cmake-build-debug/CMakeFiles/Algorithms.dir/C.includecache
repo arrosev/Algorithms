@@ -6,55 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/avltree.c
-avltree.h
-/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/avltree.h
+/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/error.h
+
+/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/sephash.c
+sephash.h
+/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/sephash.h
 stddef.h
 -
 stdlib.h
+-
+string.h
+-
+stdio.h
 -
 error.h
 /Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/error.h
 utility.h
 /Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/utility.h
 
-/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/avltree.h
-
-/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/error.h
-
-/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/leetcode.h
-
-/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/list.h
-stdbool.h
--
-
-/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/main.c
-stdio.h
--
-math.h
--
-leetcode.h
-/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/leetcode.h
-list.h
-/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/list.h
-stack.h
-/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/stack.h
-queue.h
-/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/queue.h
-searchtree.h
-/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/searchtree.h
-avltree.h
-/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/avltree.h
-
-/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/queue.h
-stdbool.h
--
-
-/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/searchtree.h
-
-/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/stack.h
-stdbool.h
--
+/Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/sephash.h
 
 /Users/chenxinliang/Desktop/Interest/ClionProject/Algorithms/Algorithms/utility.h
 

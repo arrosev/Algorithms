@@ -8,4 +8,6 @@
 #define Max(a,b) ((a) > (b) ? (a) : (b))
 #define Min(a,b) ((a) < (b) ? (a) : (b))
 
+int NextPrime (int N);
+
 #endif //ALGORITHMS_UTILITY_H

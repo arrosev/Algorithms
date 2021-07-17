@@ -331,6 +331,33 @@ searchtree.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/searchtree.c.s
 .PHONY : searchtree.c.s
 
+sephash.o: sephash.c.o
+
+.PHONY : sephash.o
+
+# target to build an object file
+sephash.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/sephash.c.o
+.PHONY : sephash.c.o
+
+sephash.i: sephash.c.i
+
+.PHONY : sephash.i
+
+# target to preprocess a source file
+sephash.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/sephash.c.i
+.PHONY : sephash.c.i
+
+sephash.s: sephash.c.s
+
+.PHONY : sephash.s
+
+# target to generate assembly for a file
+sephash.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Algorithms.dir/build.make CMakeFiles/Algorithms.dir/sephash.c.s
+.PHONY : sephash.c.s
+
 stack.o: stack.c.o
 
 .PHONY : stack.o
@@ -415,6 +442,9 @@ help:
 	@echo "... searchtree.o"
 	@echo "... searchtree.i"
 	@echo "... searchtree.s"
+	@echo "... sephash.o"
+	@echo "... sephash.i"
+	@echo "... sephash.s"
 	@echo "... stack.o"
 	@echo "... stack.i"
 	@echo "... stack.s"
